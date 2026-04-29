@@ -1,0 +1,45 @@
+{
+  "company": "DevMaster Inc.",
+  "tagline": "Software, shipped.",
+  "description": "We build bespoke software and cloud infrastructure for teams that refuse to wait.",
+  "url": "https://www.devmasterinc.com",
+  "services": [
+    {
+      "name": "Software Creation",
+      "areas": ["web apps", "saas platforms", "mobile apps", "api design", "ai-augmented features"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "areas": ["multi-region architecture", "kubernetes", "ci/cd", "sre", "security & compliance"]
+    }
+  ],
+  "stack": {
+    "languages": ["TypeScript", "Python", "Go", "Rust", "Swift", "Kotlin"],
+    "frontend": ["React", "Next.js", "Vue", "Svelte", "Tailwind"],
+    "backend": ["Node.js", "NestJS", "FastAPI", "gRPC", "GraphQL"],
+    "data": ["PostgreSQL", "Redis", "ClickHouse", "DynamoDB", "Kafka"],
+    "cloud": ["AWS", "GCP", "Azure", "Cloudflare", "Vercel"],
+    "infra": ["Kubernetes", "Terraform", "Docker", "Pulumi"],
+    "observability": ["GitHub Actions", "Datadog", "Grafana", "Sentry", "PagerDuty"],
+    "ai": ["OpenAI", "Anthropic", "LangChain", "Pinecone", "PyTorch"]
+  },
+  "principles": [
+    "ship to production on day one",
+    "every service has SLOs",
+    "no PR ships without a test",
+    "infrastructure as code, no clicking",
+    "weekly demos, not monthly slides",
+    "we dogfood our own infrastructure"
+  ],
+  "contact": {
+    "email": "info@devmasterinc.com",
+    "phone": "+44 20 3989 8982",
+    "whatsapp": "+447510574354",
+    "hours": "Mon–Fri · 24/7 on-call for ops"
+  },
+  "_meta": {
+    "version": "1.0",
+    "endpoint": "/api/about",
+    "tip": "if you're reading this from your terminal, we'd probably hire you. info@devmasterinc.com"
+  }
+}
